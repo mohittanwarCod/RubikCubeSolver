@@ -2,6 +2,6 @@
 using namespace  std;
 
 int main() {
-    cout<<"RubiksCubeSolver"<<endl;
+    cout << "RubiksCubeSolver" << endl;
     return 0;
 }
