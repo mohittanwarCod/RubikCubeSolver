@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RubikCubeSolver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/McqBattle/RubikCubeSolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RubikCubeSolver">
+				<Option output="D:/McqBattle/RubikCubeSolver/cmake-build-debug/RubikCubeSolver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/McqBattle/RubikCubeSolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 RubikCubeSolver"/>
+					<CompileFile command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RubikCubeSolver/fast">
+				<Option output="D:/McqBattle/RubikCubeSolver/cmake-build-debug/RubikCubeSolver.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/McqBattle/RubikCubeSolver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="D:/CLion 2024.1.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 RubikCubeSolver/fast"/>
+					<CompileFile command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/McqBattle/RubikCubeSolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/McqBattle/RubikCubeSolver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/CLion 2024.1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/McqBattle/RubikCubeSolver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Model/PatternDatabase/PatternDatabase.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Model/RubiksCube.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Model/RubiksCube.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Model/RubiksCube1Darray.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Model/RubiksCube3Darray.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Model/RubiksCubeBitboard.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/CornerDBMaker.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/CornerDBMaker.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/CornerPatternDatabase.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/CornerPatternDatabase.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/NibbleArray.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/NibbleArray.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/PatternDatabase.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/PatternDatabase.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/math.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/PatternDatabases/math.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Solver/BFSSolver.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Solver/DFSSolver.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Solver/IDAstarSolver.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/Solver/IDFSSolver.h">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/main.cpp">
+			<Option target="RubikCubeSolver"/>
+		</Unit>
+		<Unit filename="D:/McqBattle/RubikCubeSolver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
