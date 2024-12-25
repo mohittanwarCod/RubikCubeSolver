@@ -267,4 +267,32 @@ public:
 
         return *this;
     }
+    bool operator==(const RubiksCube1dArray &r1) const
+    {
+        for (int i = 0; i < 54; i++)
+        {
+            if (cube[i] != r1.cube[i])
+                return false;
+        }
+        return true;
+    }
+
+    RubiksCube1dArray &operator=(const RubiksCube1dArray &r1)
+    {
+        for (int i = 0; i < 54; i++)
+        {
+            cube[i] = r1.cube[i];
+        }
+        return *this;
+    }
+};
+struct Hash1d
+{
+    size_t operator()(const RubiksCube1dArray &r1) const
+    {
+        string str = "";
+        for (int i = 0; i < 54; i++)
+            str += r1.cube[i];
+        return hash<string>()(str);
+    }
 };
